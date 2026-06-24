@@ -1,6 +1,8 @@
 class Lazycontainer < Formula
   desc "Lazydocker-style terminal UI for Apple's container CLI"
   homepage "https://github.com/pzep1/lazycont"
+  url "https://github.com/pzep1/lazycont/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
   license "GPL-3.0-or-later"
   head "https://github.com/pzep1/lazycont.git", branch: "main"
 
@@ -9,8 +11,11 @@ class Lazycontainer < Formula
   depends_on :macos
 
   def install
+    build_version = version.to_s
+    build_version = "HEAD" if build_version.empty?
+
     system "go", "build",
-      *std_go_args(ldflags: "-s -w -X main.version=HEAD"),
+      *std_go_args(ldflags: "-s -w -X main.version=#{build_version}"),
       "./cmd/lazycontainer"
   end
 

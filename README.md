@@ -10,8 +10,11 @@ brew install pzep1/lazycont/lazycontainer
 ```
 
 This taps `pzep1/homebrew-lazycont` automatically and builds lazycontainer from
-the latest `main` branch. After the next tagged release, stable installs will
-pin a versioned tarball.
+the latest tagged release (`v0.3.0`). To track the development branch instead:
+
+```sh
+brew install --HEAD pzep1/lazycont/lazycontainer
+```
 
 The formula depends on Homebrew's Apple `container` package. After installing,
 start the container system service before launching the TUI:
