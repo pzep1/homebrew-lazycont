@@ -1,6 +1,6 @@
 # homebrew-lazycont
 
-Homebrew tap for [lazycont](https://github.com/pzep1/lazycont) — a lazydocker-style
+Homebrew tap for [lazycontainer](https://github.com/pzep1/lazycontainer) — a lazydocker-style
 terminal UI for Apple's [`container`](https://github.com/apple/container) CLI.
 
 ## Install
@@ -9,8 +9,8 @@ terminal UI for Apple's [`container`](https://github.com/apple/container) CLI.
 brew install pzep1/lazycont/lazycontainer
 ```
 
-This taps `pzep1/homebrew-lazycont` automatically and builds lazycontainer from
-the latest tagged release (`v0.3.0`). To track the development branch instead:
+This taps `pzep1/homebrew-lazycont` automatically and builds **lazycontainer v0.3.0** from
+the latest tagged release. To track the development branch instead:
 
 ```sh
 brew install --HEAD pzep1/lazycont/lazycontainer
@@ -27,5 +27,5 @@ container system start
 
 ## License
 
-The lazycont project is released under the GNU General Public License v3.0 or
-later. See the [main repository](https://github.com/pzep1/lazycont/blob/main/LICENSE).
+The lazycontainer project is released under the GNU General Public License v3.0 or
+later. See the [main repository](https://github.com/pzep1/lazycontainer/blob/main/LICENSE).
