@@ -6,14 +6,14 @@ terminal UI for Apple's [`container`](https://github.com/apple/container) CLI.
 ## Install
 
 ```sh
-brew install pzep1/lazycont/lazycont
+brew install pzep1/lazycont/lazycontainer
 ```
 
 This taps `pzep1/homebrew-lazycont` automatically and builds lazycont from the
 latest tagged release. To track the development branch instead:
 
 ```sh
-brew install --HEAD pzep1/lazycont/lazycont
+brew install --HEAD pzep1/lazycont/lazycontainer
 ```
 
 The formula depends on Homebrew's Apple `container` package. After installing,

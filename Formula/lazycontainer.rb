@@ -1,4 +1,4 @@
-class Lazycont < Formula
+class Lazycontainer < Formula
   desc "Lazydocker-style terminal UI for Apple's container CLI"
   homepage "https://github.com/pzep1/lazycont"
   url "https://github.com/pzep1/lazycont/archive/refs/tags/v0.2.0.tar.gz"
